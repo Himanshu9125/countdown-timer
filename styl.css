@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(180, 168, 168, 0.052);
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    background-image: url('bckpic.jpg');
+    background-position: top;
+    background-size: cover;
+    border-color: black;
+}
+
+
+.overlay {
+    padding-top: 15%;
+    width: 1700px;
+    height: 900px;
+    background-color: rgba(0, 0, 0, 0.478);
+}
+
+.title {
+    padding-top: 2px;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    margin-right: 100px;
+    text-align: center;
+
+}
+
+.text {
+
+    margin-left: 18%;
+    /* border: 2px solid red; */
+    padding-top: 3%;
+    padding-right: 60%;
+    height: 20%;
+    width: 20%;
+    display: flex;
+
+
+
+}
+
+@import url('https://fonts.google.com/specimen/Oswald');
+
+
+input {
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+    border-color: transparent;
+    color: black;
+    text-align: center;
+    font-size: large;
+}
+
+.ck {
+    margin-top: 10%;
+    margin-left: 120px;
+    width: 120px;
+    text-align: center;
+
+}
+
+.ind {
+    color: wheat;
+    text-decoration: underline black;
+    text-align: center;
+}
